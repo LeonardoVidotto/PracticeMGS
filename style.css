@@ -1,0 +1,124 @@
+* {
+    font-family: arial;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #464646;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 990px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    border-left: 3px solid #000000;
+    border-right: 3px solid #000000;
+}
+.logo img{
+    width: 990px;
+    border-bottom: 5px solid #000000;
+}
+section{
+    display: flex;
+    justify-content: center; 
+}
+section .container{
+    background-color:#FFFFFF;
+    flex-wrap: wrap;
+    border-bottom: 5px solid #000000;
+}
+.figmgs1, .figmgs3{
+    display: flex;
+    justify-content: space-between;
+    max-width: 350px;
+    padding-left: 80px;
+}
+.figmgs1 img, .figmgs2 img, .figmgs3 img{
+    width: 200px;
+    height:300px;
+}
+.figmgs2 img {
+    padding-right: 80px;
+}
+.artigo1, .artigo3 {
+    max-width: 650px;
+    padding-right: 50px;
+    padding-left: 10px;
+}
+.artigo2 {
+    padding-left: 50px;
+    max-width: 650px;
+}
+.figmgs1, .figmgs2, .figmgs3 {
+    margin-top: 20px;
+}
+.artigo1 h2, .artigo2 h2, .artigo3 h2{
+    color: #464646;
+}
+.artigo2 h2{
+    color: #3598da;
+}
+.artigo3 h2{
+    color: #e63e14;
+}
+.artigo1 p, .artigo2 p, .artigo3 p{
+    text-align: justify;
+}
+.figmgs3, .figmgs3{
+    margin-bottom: 20px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+footer .container {
+    text-align: center;
+    font-size: 13px;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer .container a{
+    margin-left: 5px;
+    text-align: center;
+    font-size: 13px;
+    text-decoration: none;
+    color:#3598da
+}
+footer .container a:hover{
+    text-decoration: underline;
+}
+section {    
+    display: flex;
+    justify-content: center;
+}
+nav .container{   
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+    border-left: 3px solid #000000;
+    border-right: 3px solid #000000;
+    border-bottom: 5px solid #000000;
+}
+.mgs1, .mgs2, .mgs3{
+    flex:1;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.mgs1 a{
+    color:#464646;
+}
+.mgs2 a{
+    color:#3598da;
+}
+.mgs3 a{
+    color:#e63e14;
+}
+.mgs1 a, .mgs2 a, .mgs3 a{
+    text-decoration: none;
+}
