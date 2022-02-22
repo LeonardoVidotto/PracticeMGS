@@ -143,4 +143,14 @@ nav .container{
         padding-left: 10px;
         padding-right: 10px;
     }
+    .figmgs2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 70px;
+    }
+    footer .container{
+        display: flex;
+        flex-direction: column;
+    }
 }
