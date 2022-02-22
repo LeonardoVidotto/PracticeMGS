@@ -125,10 +125,10 @@ nav .container{
 
 @media (max-width:425px){
     header .container{
-        width: 425px;
+        width: 420px;
     }
     .logo img{
-        width: 425px;
+        width: 419px;
     }
     nav .container{
         width: 425px;
